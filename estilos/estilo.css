@@ -12,20 +12,15 @@ html, body{
     background-color: black;
 }
 
+body{
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 main{
     position: relative;
     height: 100vh;
-    width: 100vw;
-    
-}
-
-body{
-    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
-    margin: 0px;
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 section#telefone{
@@ -33,8 +28,17 @@ section#telefone{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 605px;
-    width: 300px;
-    background: url('../imagens/frame-iphone.png') no-repeat;
     
+
+    height: 580px;
+    width: 288px;
+    background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela{
+    position: relative;
+    top: 75px;
+    left: 21px;
+    width: 246px;
+    height: 434px;
 }
